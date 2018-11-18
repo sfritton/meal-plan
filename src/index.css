@@ -4,12 +4,22 @@
   --color-text-on-light: #333;
   --color-text-on-dark: #fff;
 
-  --color-primary: #333;
-  --color-primary-light: #666;
+  --color-primary: #666;
+  --color-primary-light: #d6d6d6;
+  --color-primary-dark: #333;
   --color-text-on-primary: var(--color-text-on-dark);
+  --color-text-on-primary-light: var(--color-text-on-light);
+  --color-text-on-primary-dark: var(--color-text-on-dark);
+
+  --color-secondary: #304ffe;
+  --color-secondary-light: #7a7cff;
+  --color-secondary-dark: #0026ca;
+  --color-text-on-secondary: var(--color-text-on-dark);
+  --color-text-on-secondary-light: var(--color-text-on-light);
+  --color-text-on-secondary-dark: var(--color-text-on-dark);
 
   /* shadow */
-  --shadow: 0 2px 4px rgba(0,0,0,.1);
+  --shadow: 0 2px 4px rgba(0,0,0,.125);
 
   /* spacing */
   --spacing-1x: 5px;
@@ -19,7 +29,7 @@
   --spacing-5x: calc(var(--spacing-1x) * 5);
   --spacing-6x: calc(var(--spacing-1x) * 6);
 
-  --border-radius: 4px;
+  --standard-border-radius: 4px;
 }
 
 /* use border-box */

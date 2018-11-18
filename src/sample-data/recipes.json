@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Sweet potato black bean chili",
+    "imageUrl": "https://minimalistbaker.com/wp-content/uploads/2015/02/HEARTY-delicious-5-Ingredient-Black-Bean-Sweet-Potato-Chlii-vegan-glutenfree-healthy.jpg",
+    "credit": {
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/5-ingredient-sweet-potato-black-bean-chili/"
+    }
+  },
+  {
+    "title": "Sweet potato tacos",
+    "imageUrl": "https://www.cookingclassy.com/wp-content/uploads/2013/09/honey-lime-sweet-potato-black-bean-corn-tacos+srgb..jpg",
+    "credit": {
+      "name": "Cooking Classy",
+      "url": "https://www.cookingclassy.com/honey-lime-sweet-potato-black-bean-and-corn-tacos/"
+    }
+  },
+  {
+    "title": "Apple cider chicken",
+    "imageUrl": "https://www.wellplated.com/wp-content/uploads/2016/10/Easy-Apple-Cider-Chicken-Skillet.jpg",
+    "credit": {
+      "name": "Well Plated",
+      "url": "https://www.wellplated.com/apple-cider-chicken/"
+    }
+  },
+  {
+    "title": "Apple cinnamon bread",
+    "imageUrl": "https://wishesndishes.com/images/2013/09/Cinnamon-Apple-Pie-Bread-1.jpg",
+    "credit": {
+      "name": "wishes and dishes",
+      "url": "https://wishesndishes.com/cinnamon-apple-pie-bread/"
+    }
+  },
+  {
+    "title": "Apple cinnamon muffins",
+    "imageUrl": "https://images.media-allrecipes.com/userphotos/720x405/5934937.jpg",
+    "credit": {
+      "name": "allrecipes",
+      "url": "https://www.allrecipes.com/recipe/24352/easy-apple-cinnamon-muffins/?internalSource=recipe%20hub&referringId=1099&referringContentType=recipe%20hub"
+    }
+  },
+  {
+    "title": "Apple cinnamon waffles",
+    "imageUrl": "https://minimalistbaker.com/wp-content/uploads/2013/10/Vegan-Apple-Waffles-minimalistbaker.com_.jpg",
+    "credit": {
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com/vegan-apple-cinnamon-waffles/"
+    }
+  }
+]

@@ -8,35 +8,31 @@ import Recipe, {
   RecipeButton
 } from './components/Recipe';
 
+import recipes from './sample-data/recipes.json';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Recipes>
-          <Recipe>
-            <RecipeImage />
-            <RecipeTitle />
-            <RecipeButtons>
-              <RecipeButton label="Add" />
-              <RecipeButton label="Details" />
-            </RecipeButtons>
-          </Recipe>
-          <Recipe>
-            <RecipeImage />
-            <RecipeTitle />
-            <RecipeButtons>
-              <RecipeButton label="Add" />
-              <RecipeButton label="Details" />
-            </RecipeButtons>
-          </Recipe>
-          <Recipe>
-            <RecipeImage />
-            <RecipeTitle />
-            <RecipeButtons>
-              <RecipeButton label="Add" />
-              <RecipeButton label="Details" />
-            </RecipeButtons>
-          </Recipe>
+          {recipes.map(recipe => (
+            <Recipe recipe={recipe} key={recipe.title}>
+              <RecipeImage />
+              <RecipeTitle />
+              <RecipeButtons>
+                <RecipeButton label="Add" primary/>
+                <RecipeButton label="Details" />
+              </RecipeButtons>
+            </Recipe>
+          ))}
+            <Recipe>
+              <RecipeImage />
+              <RecipeTitle />
+              <RecipeButtons>
+                <RecipeButton label="Add" primary/>
+                <RecipeButton label="Details" />
+              </RecipeButtons>
+            </Recipe>
         </Recipes>
       </div>
     );

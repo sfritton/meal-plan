@@ -40,13 +40,7 @@ export const RecipeButton = ({ label, onClick, children }) => (
   </button>
 );
 
-const defaultRecipe = {
-  title: 'Thanksgiving dinner',
-  imageUrl: 'http://images.media-allrecipes.com/userphotos/960x960/3757256.jpg',
-  imageAlt: ''
-};
-
-const Recipe = ({ recipe = defaultRecipe, children }) => (
+const Recipe = ({ recipe = {}, children }) => (
   <RecipeContext.Provider value={recipe}>
     <div className="recipe">
       {children}
