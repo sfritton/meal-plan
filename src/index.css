@@ -18,6 +18,8 @@
   --spacing-4x: calc(var(--spacing-1x) * 4);
   --spacing-5x: calc(var(--spacing-1x) * 5);
   --spacing-6x: calc(var(--spacing-1x) * 6);
+
+  --border-radius: 4px;
 }
 
 /* use border-box */

@@ -1,0 +1,37 @@
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  background: var(--color-text-on-dark);
+  color: var(--color-text-on-light);
+  margin: var(--spacing-2x);
+  width: 200px;
+  flex-grow: 1;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.recipe-image {
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+}
+
+.recipe-title {
+  padding: var(--spacing-1x);
+  font-weight: bold;
+}
+
+.recipe-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-button {
+  flex-grow: 1;
+  border: none;
+  padding: var(--spacing-2x);
+}

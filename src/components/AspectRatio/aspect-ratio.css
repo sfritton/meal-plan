@@ -1,0 +1,18 @@
+.aspect-ratio {
+  position: relative;
+  overflow: hidden;
+}
+
+.aspect-ratio > canvas {
+  display: block;
+  visibility: hidden;
+  width: 100%;
+}
+
+.aspect-ratio--children {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
