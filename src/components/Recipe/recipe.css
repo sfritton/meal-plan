@@ -1,12 +1,13 @@
 .recipes {
   display: flex;
   flex-wrap: wrap;
+  margin: var(--spacing-1x);
 }
 
 .recipe {
   position: relative;
   margin: var(--spacing-2x);
-  width: 250px;
+  background: #fff;
   flex-grow: 1;
   border-radius: var(--standard-border-radius);
   overflow: hidden;
@@ -27,7 +28,6 @@
 .recipe-title {
   padding: var(--spacing-1x);
   font-weight: bold;
-  background: #fff;
   color: var(--color-text-on-primary-light);
 }
 
@@ -40,29 +40,9 @@
 
 .recipe-button {
   flex-grow: 1;
-  background: var(--color-secondary);
-  color: var(--color-text-on-secondary);
-  border: none;
   border-right: 1px solid var(--color-primary-dark);
-  padding: var(--spacing-2x);
 }
 
 .recipe-button:last-child {
   border-right: none;
-}
-
-.recipe-button:hover {
-  background: var(--color-secondary-light);
-  color: var(--color-text-on-secondary-light);
-  cursor: pointer;
-}
-
-.recipe-button:active {
-  background: var(--color-secondary-dark);
-  color: var(--color-text-on-secondary-dark);
-}
-
-.recipe-button:focus {
-  text-decoration: underline;
-  outline: none;
 }
