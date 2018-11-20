@@ -40,9 +40,9 @@ export const RecipeButton = ({ label, onClick, children }) => (
   </button>
 );
 
-const Recipe = ({ recipe = {}, width = '250px', children }) => (
+const Recipe = ({ recipe = {}, children }) => (
   <RecipeContext.Provider value={recipe}>
-    <div className="recipe" style={{ width }}>
+    <div className="recipe">
       {children}
     </div>
   </RecipeContext.Provider>

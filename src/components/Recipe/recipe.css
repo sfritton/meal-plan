@@ -9,10 +9,11 @@
   margin: var(--spacing-2x);
   background: #fff;
   flex-grow: 1;
+  width: 250px;
   border-radius: var(--standard-border-radius);
   overflow: hidden;
   box-shadow: var(--shadow);
-  padding-bottom: 36px;
+  padding-bottom: 35px;
 }
 
 .recipe-image {

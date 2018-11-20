@@ -1,0 +1,23 @@
+.layout {
+  display: grid;
+  grid-template-columns: calc(100% - 300px) 300px;
+}
+
+.main-body {
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar {
+  background: var(--color-primary-dark);
+  padding: var(--spacing-1x);
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-heading {
+  margin: var(--spacing-2x);
+  text-align: center;
+}
+
+
