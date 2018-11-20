@@ -29,6 +29,7 @@
   padding: var(--spacing-1x);
   font-weight: bold;
   color: var(--color-text-on-primary-light);
+  border-top: 1px solid var(--color-primary-light);
 }
 
 .recipe-buttons {

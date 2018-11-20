@@ -6,6 +6,7 @@
 
   --color-primary: #666;
   --color-primary-light: #d6d6d6;
+  --color-primary-lighter: #f7f7f7;
   --color-primary-dark: #333;
   --color-text-on-primary: var(--color-text-on-dark);
   --color-text-on-primary-light: var(--color-text-on-light);
@@ -19,7 +20,7 @@
   --color-text-on-secondary-dark: var(--color-text-on-dark);
 
   /* shadow */
-  --shadow: 0 2px 4px rgba(0,0,0,.125);
+  --shadow: 0 2px 4px rgba(0,0,0,.25);
 
   /* spacing */
   --spacing-1x: 5px;
@@ -44,7 +45,7 @@ html {
 /* default styles */
 body {
   margin: 0;
-  background: var(--color-primary);
+  background: var(--color-primary-lighter);
   color: var(--color-text-on-primary);
   font-family: Arial, Helvetica, sans-serif;
 }
